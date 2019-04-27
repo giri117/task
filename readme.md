@@ -1,5 +1,5 @@
-#Task Manager APP
-####Introduction
+# Task Manager APP
+#### Introduction
  This is basic Task Manager APP using Nodejs
  Users can able to create update read and delete a Task
 #### To SetUp APP
@@ -7,7 +7,7 @@
 #### To start server
  npm start
 #### Testing
-######Register A task
+###### Register A task
 url localhost:2019/tasks
 Method: POST
 Requst Body:
@@ -17,16 +17,16 @@ Requst Body:
     "compleated": false
     
 }
-######List A task
+###### List A task
 url localhost:2019/tasks
 Method: Get
 
-######List A task by Id
+###### List A task by Id
 url localhost:2019/tasks/:id
 Method: Get
 
 
-######Update Task By Id
+###### Update Task By Id
 
 url localhost:2019/tasks
 Method: PATCH
@@ -38,7 +38,7 @@ Requst Body:
     
 }
 
-######Delete Task By Id
+###### Delete Task By Id
 
 url localhost:2019/tasks
 Method: Delete
